@@ -25,22 +25,22 @@ export default function Header({}: Props) {
 			>
 				<SocialIcon
 					url="https://www.facebook.com/ho.leo.716"
-					fgColor="gray"
+					fgColor="#f0f0f0"
 					bgColor="transparent"
 				/>
 				<SocialIcon
 					url="https://github.com/KyawZaw-112/"
-					fgColor="gray"
+					fgColor="#f0f0f0"
 					bgColor="transparent"
 				/>
 				<SocialIcon
 					url="https://www.linkedin.com/in/kyaw-zaw-win-4a69ba247/"
-					fgColor="gray"
+					fgColor="#f0f0f0"
 					bgColor="transparent"
 				/>
 				<SocialIcon
 					url="https://www.instagram.com/holeo_kyaw_zaw/"
-					fgColor="gray"
+					fgColor="#f0f0f0"
 					bgColor="transparent"
 				/>
 			</motion.div>
@@ -53,10 +53,10 @@ export default function Header({}: Props) {
 				<SocialIcon
 					className="cursor-pointer"
 					network="email"
-					fgColor="gray"
+					fgColor="#f0f0f0"
 					bgColor="transparent"
 				/>
-				<p className="hidden uppercase md:inline-flex text-sm text-gray-400">
+				<p className="hidden uppercase md:inline-flex text-sm text-[#f0f0f0]">
 					Get in touch
 				</p>
 			</motion.div>
