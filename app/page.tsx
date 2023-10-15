@@ -4,7 +4,7 @@ import { NextPage } from "next";
 
 const Home:NextPage = () => {
   return (
-    <div className="bg-[#364f6b] text-[#f0f0f0] h-screen snap-y snap snap-mandatory overflow-scroll z-0">
+    <div className="bg-[#364f6b] text-[#f0f0f0] h-screen snap-y snap snap-mandatory overflow-scroll z-0 overflow-x-hidden">
       <Header/>
       <section id="profile" className="snap-center">
         <Profile />

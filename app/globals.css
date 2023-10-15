@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+	.profile-btn {
+		@apply px-6 py-2 border border-[#43dde6] rounded-full uppercase text-sm tracking-widest text-[#f0f0f0] transition-all hover:border-[#f0f0f0]/40 hover:text-[#c0bfbf]/40;
+	}
+}
