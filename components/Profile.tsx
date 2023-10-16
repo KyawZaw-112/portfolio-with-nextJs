@@ -2,10 +2,10 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { Bona_Nova } from "next/font/google";
-import BackGroundProfile from "./BackGroundProfile";
 import Image from "next/image";
 import profile from "./../app/public/profile-pic.jpg";
-import Link from "next/link";
+import BackGroundProfile from "./BackGroundProfile";
+import NavigatorButtonGroup from "./navigatorButtonGroup";
 
 const bonaNova = Bona_Nova({
 	subsets: ["greek"],
@@ -44,18 +44,7 @@ const Profile = ({}: Props) => {
 				</h1>
 			</div>
 			<div className="pt-5 z-50">
-				<Link href="#about ">
-					<button className="profile-btn mx-3 ">About</button>
-				</Link>
-				<Link href="#experience">
-					<button className="profile-btn mx-3">Experience</button>
-				</Link>
-				<Link href="#skills">
-					<button className="profile-btn mx-3">Skills</button>
-				</Link>
-				<Link href="#projects">
-					<button className="profile-btn mx-3">Projects</button>
-				</Link>
+				<NavigatorButtonGroup />
 			</div>
 		</div>
 	);

@@ -1,10 +1,11 @@
-import Header from "@/components/Header";
-import Profile from "@/components/Profile";
+import Header from "@/components/header";
+import Profile from "@/components/profile";
 import { NextPage } from "next";
+import Link from "next/link";
 
 const Home:NextPage = () => {
   return (
-    <div className="bg-[#364f6b] text-[#f0f0f0] h-screen snap-y snap snap-mandatory overflow-scroll z-0 overflow-x-hidden">
+    <div className="bg-[#364f6b] text-[#f0f0f0] h-screen z-0 overflow-hidden">
       <Header/>
       <section id="profile" className="snap-center">
         <Profile />
