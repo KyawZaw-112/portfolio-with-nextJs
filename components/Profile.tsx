@@ -32,6 +32,7 @@ const Profile = ({}: Props) => {
 				alt={"Profile-Picture"}
 				width={400}
 				height={400}
+				priority= {true}
 				className=" relative rounded-full h-32 w-32 mx-auto object-cover"
 			/>
 			<div className="z-20">

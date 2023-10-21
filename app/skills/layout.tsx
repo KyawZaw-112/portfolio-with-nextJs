@@ -4,14 +4,12 @@ export const metadata: Metadata = {
 	description: "For My Application",
 };
 
-export default function RootLayout({
+export default function SkillLayout({
 	children,
 }: {
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en">
-			<body className="h-screen overflow-hidden bg-black">{children}</body>
-		</html>
+		<section>{children}</section>
 	);
 }

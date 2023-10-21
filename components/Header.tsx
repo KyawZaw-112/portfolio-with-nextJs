@@ -23,16 +23,21 @@ export default function Header({}: Props) {
 				}}
 				className=" flex flex-row items-center"
 			>
-				<SocialIcon
-					url="https://www.facebook.com/ho.leo.716"
-					fgColor="#f0f0f0"
-					bgColor="transparent"
-				/>
+				<div className="tooltip tooltip-bottom" data-tip="facebook">
+					<SocialIcon
+						url="https://www.facebook.com/ho.leo.716"
+						fgColor="#f0f0f0"
+						bgColor="transparent"
+					/>
+				</div>
+				<div className=" tooltip tooltip-bottom" data-tip= "github">
 				<SocialIcon
 					url="https://github.com/KyawZaw-112/"
 					fgColor="#f0f0f0"
 					bgColor="transparent"
 				/>
+				</div>
+				.
 				<SocialIcon
 					url="https://www.linkedin.com/in/kyaw-zaw-win-4a69ba247/"
 					fgColor="#f0f0f0"
@@ -47,7 +52,7 @@ export default function Header({}: Props) {
 			<motion.div
 				initial={{ x: 500, opacity: 0, scale: 0.5 }}
 				animate={{ x: 0, opacity: 1, scale: 1 }}
-                transition={{duration: 1.5}}
+				transition={{ duration: 1.5 }}
 				className="flex flex-row items-center text-gray-300 cursor-pointer"
 			>
 				<SocialIcon
