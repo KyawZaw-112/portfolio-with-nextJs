@@ -1,5 +1,4 @@
-const sillData: {
-	title: string;
+const skillData: {
 	description: string;
 	id: number;
 	from: string;
@@ -8,7 +7,6 @@ const sillData: {
 }[] = [
 	{
 		id: 1,
-		title: "Education",
 		description: "Cerficate Of professional web developer course",
 		from: "fairway technology",
 		descriptionTwo: "diploma of education and teaching",
@@ -16,4 +14,4 @@ const sillData: {
 	}
 ];
 
-export default sillData;
+export default skillData;

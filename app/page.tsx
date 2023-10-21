@@ -10,6 +10,7 @@ const Home: NextPage = () => {
 			<section id="profile" className="snap-center">
 				<Profile />
 			</section>
+
 		</div>
 	);
 };
