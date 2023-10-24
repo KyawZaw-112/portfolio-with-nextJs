@@ -19,8 +19,8 @@ const EducationPage = (props: Props) => {
 			<TableHeader>
 				<TableRow>
 					<TableHead className="w-[100px]">No.</TableHead>
-					<TableHead>Type Of Certficate</TableHead>
-					<TableHead className="text-left">University</TableHead>
+					<TableHead className="text-center">Type Of Certficate</TableHead>
+					<TableHead className="text-center">University</TableHead>
 					<TableHead className="text-center">Year</TableHead>
 				</TableRow>
 			</TableHeader>
@@ -31,8 +31,8 @@ const EducationPage = (props: Props) => {
 							<TableCell className="font-medium">
 								{skill.id}
 							</TableCell>
-							<TableCell className=" capitalize text-lg font-bold">{skill.description}</TableCell>
-							<TableCell className="text-left uppercase text-lg font-bold">
+							<TableCell className=" capitalize text-lg font-bold text-center">{skill.description}</TableCell>
+							<TableCell className="text-center uppercase text-lg font-bold">
 								{skill.from}
 							</TableCell>
 							<TableCell className="text-center">{skill.timeOne}</TableCell>
