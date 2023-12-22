@@ -1,5 +1,5 @@
 import React from "react";
-import skillDatas from "./api";
+import educationData from "./api";
 import {
 	Table,
 	TableBody,
@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/table";
 
 type Props = {};
-const [skillData] = skillDatas;
+const [skillData] = educationData;
 
 const EducationPage = (props: Props) => {
 
@@ -19,23 +19,23 @@ const EducationPage = (props: Props) => {
 			<TableHeader>
 				<TableRow>
 					<TableHead className="w-[100px]">No.</TableHead>
-					<TableHead className="text-center">Type Of Certficate</TableHead>
-					<TableHead className="text-center">University</TableHead>
+					<TableHead className="text-left">Type Of Certficate</TableHead>
+					<TableHead className="text-left">University</TableHead>
 					<TableHead className="text-center">Year</TableHead>
 				</TableRow>
 			</TableHeader>
 			<TableBody>
-				{skillDatas.map((skill, id) => {
+				{educationData.map((ed, id) => {
 					return (
 						<TableRow className=" h-20">
 							<TableCell className="font-medium">
-								{skill.id}
+								{ed.id}
 							</TableCell>
-							<TableCell className=" capitalize text-lg font-bold text-center">{skill.description}</TableCell>
-							<TableCell className="text-center uppercase text-lg font-bold">
-								{skill.from}
+							<TableCell className=" capitalize text-lg font-bold text-left">{ed.description}</TableCell>
+							<TableCell className="text-left uppercase text-lg font-bold">
+								{ed.from}
 							</TableCell>
-							<TableCell className="text-center">{skill.timeOne}</TableCell>
+							<TableCell className="text-center">{ed.timeOne}</TableCell>
 						</TableRow>
 					);
 				})}

@@ -1,4 +1,4 @@
-const skillData: {
+const educationData: {
 	description: string;
 	id: number;
 	from: string;
@@ -18,4 +18,4 @@ const skillData: {
 	},
 ];
 
-export default skillData;
+export default educationData;

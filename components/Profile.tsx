@@ -44,7 +44,7 @@ const Profile = ({}: Props) => {
 					<Cursor cursorColor="#fc5185" cursorStyle="_" />
 				</h1>
 			</div>
-			<div className="pt-5 z-50">
+			<div className="z-50 ">
 				<NavigatorButtonGroup />
 			</div>
 		</div>

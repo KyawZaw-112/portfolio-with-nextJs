@@ -13,8 +13,8 @@ const skills = (props : Props) => {
 	
 	return (
 		<div className=" w-screen h-screen overflow-hidden flex flex-col justify-around  items-center bg-[#364f6b] py-10">
-			<Tabs defaultValue="education" className="w-3/4 flex flex-col">
-				<TabsList className=" flex justify-around w-full border-b-2 border-[#fc5185] py-3 h-16">
+			<Tabs defaultValue="education" className="w-3/4 flex flex-col ">
+				<TabsList className=" flex justify-around w-full border-b-2 border-[#f0f0f0] py-3 h-16">
 					<TabsTrigger value="education" className=" uppercase font-bold text-2xl text-[#f0f0f0]">education</TabsTrigger>
 					<TabsTrigger value="skill" className=" uppercase font-bold text-2xl text-[#f0f0f0]">skills</TabsTrigger>
 				</TabsList>
@@ -25,7 +25,7 @@ const skills = (props : Props) => {
 					<SkillPage />
 				</TabsContent>
 			</Tabs>
-            <NavigatorButtonGroup />
+			<NavigatorButtonGroup />
 		</div>
 	);
 };

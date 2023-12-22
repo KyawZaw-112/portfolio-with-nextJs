@@ -1,4 +1,5 @@
 import Header from "@/components/header";
+import NavigatorButtonGroup from "@/components/navigatorButtonGroup";
 import Profile from "@/components/profile";
 import { NextPage } from "next";
 import Link from "next/link";

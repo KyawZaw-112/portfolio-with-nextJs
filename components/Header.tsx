@@ -37,7 +37,6 @@ export default function Header({}: Props) {
 					bgColor="transparent"
 				/>
 				</div>
-				.
 				<SocialIcon
 					url="https://www.linkedin.com/in/kyaw-zaw-win-4a69ba247/"
 					fgColor="#f0f0f0"
